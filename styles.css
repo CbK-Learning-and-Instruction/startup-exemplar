@@ -30,7 +30,8 @@ p {
     line-height: 2;
 }
 form{
-    padding: 5% 3%;
+    padding: 8% 3%;
+    margin-bottom: 20%;
 }
 /*Navigation and links on each page*/
 .navigation-bar {
@@ -111,7 +112,7 @@ form{
 
 #content-para {
     text-align: center;
-    margin: 1% 10%;
+    margin: 3% 10%;
     font-size: 1.2em;
 }
 
@@ -168,12 +169,12 @@ a>p {
    width:25%;
    background-color: #da7635;
    margin-left: 50%;
-    border-radius: 3%;
+    border-radius: 3%; 
 }
 
 input{
     padding: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 #survey-form{
    display:flex;
@@ -229,4 +230,10 @@ input{
 
 .shadow {
     box-shadow: 15px 15px 20px black;
+}
+
+@media(max-width: 1600px){
+    .top{
+    margin-top: 10%;
+}
 }
