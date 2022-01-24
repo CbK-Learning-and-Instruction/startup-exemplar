@@ -1,23 +1,24 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #353535;
+    color: #0c0c0c;
 }
 
-h2 {
+h2, 
+h1 {
     font-family: 'Rock Salt', cursive;
 }
 
 a {
     text-decoration: none;
-    color: #353535;
+    color: #0c0c0c;
     padding: 0 .5%;
 }
 
 a:hover {
     text-decoration: underline;
     cursor: pointer;
-    color: #da7635;
+    
 }
 
 li {
@@ -29,22 +30,19 @@ li {
 p {
     line-height: 2;
 }
-form{
-    padding: 8% 3%;
-    margin-bottom: 20%;
-}
 /*Navigation and links on each page*/
-.navigation-bar {
+/*.navigation-bar {
     background-color: rgba(53, 53, 53, 0.47);
     
 }
-
+*/
 #nav-heading {
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     width: 50%;
     padding-left: 2%;
     display: inline-block;
     color: #da7635;
+    font-size: 2em;
 }
 
 #nav-links {
@@ -52,20 +50,19 @@ form{
     text-align: right;
     width: 45%;
     display: inline-block;
-    
 }
-#nav-links a{
-    color: white;
-}
+
+
 .footer {
     border-top: 0.3em solid #353535;
     background-color: #353535;
+    margin-top: 5%;
 }
 
 #footer-heading {
     font-size: .9em;
     padding-left: 2%;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     width: 50%;
     display: inline-block;
     color: #da7635;
@@ -78,28 +75,31 @@ form{
     display: inline-block;
     margin-top: 3%;
 }
-#footer-links a{
+
+#footer-links a {
+    color: white;
+}
+.button{
+    background-color: #da7635;
+    padding: 1% 1.5%;
+    border-radius: 8px;
     color: white;
 }
 #link-button {
     color: #da7635;
 }
+/*landing sections for all pages*/
 
-/*content with image and text*/
-#landing-image{
-    background-image: url("https://images.unsplash.com/photo-1604187351574-c75ca79f5807?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVjeWNsZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-    height: 90vh;
-    border: #353535 0.5px solid;
-    background-size: cover;
+/*homepage*/
+#landing-image {
+    background-image: url("https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    height: 95vh;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    color: white;
+    background-position: left;
     letter-spacing: 2px;
-    text-align: left;
-    margin-bottom: 5%;
-    
 }
-
+/*about page*/
 #about-landing {
     background-image: url("https://images.unsplash.com/photo-1584449879552-d4a37ce5e5c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
     color: green;
@@ -108,43 +108,93 @@ form{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    letter-spacing: 2px;
 }
-
+/*resource page*/
+#resource-landing{
+    background-image: url("https://www.farmersalmanac.com/wp-content/uploads/2020/11/stop-wasting-food-food-waste-as_96317730-945x630.jpeg") ;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 2px;
+}
+/*features page*/
+#feature-landing{
+    /*background-image: url('https://media.istockphoto.com/photos/artificial-intelligence-and-communication-network-concept-picture-id1281297414?b=1&k=20&m=1281297414&s=170667a&w=0&h=YgXut9DQqJDDfl3fmT93kLnaWJTFJP9Umg-Tefw3BPs=');*/
+    background-image: url("https://images.unsplash.com/photo-1521572089244-e5aaacacca6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1vYmlsZSUyMHBob25lfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    letter-spacing: 2px;
+}
+/*content with image and text*/
+#section-img{
+     background-image: url("https://images.pexels.com/photos/343871/pexels-photo-343871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 95vh;
+    /*border: #353535 0.5px solid;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#img-banner{
+    background-image: url("https://images.unsplash.com/photo-1504632236107-4ae29a44f388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb2QlMjBpbmdyZWRpZW50c3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+#statement{
+    text-align: center;
+    margin: 1% 10%;
+    font-size: 3em;
+    color: white;
+    text-shadow: 4px 2px black;
+}
 #content-para {
     text-align: center;
     margin: 3% 10%;
     font-size: 1.2em;
 }
 
-.content-img-section {
-    margin: 5% 10%;
+.content-img-section-home {
+    margin: 0;
     padding: 2%;
     background: radial-gradient(white 60%, lightgray);
+    height: 85vh;
 }
 
 .content-img {
     display: inline-block;
     width: 45%;
+    margin-left: 5%;
 }
 
 .content-img-img {
-    width: 80%;
-    height: 45vh;
-    box-shadow: 15px 15px 2px 1px #8eb1c7;
+    height: 70vh;
+    /*box-shadow: 15px 15px 2px 1px #8eb1c7;*/
 }
 
 .content-img-text {
     display: inline-block;
     width: 45%;
     vertical-align: top;
-    margin-top: 6%;
+    margin-top: 3%;
     font-weight: 600;
 }
-
-.content-facts {
-    margin: 5% 13%;
+.content-img-para{
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
-
+.content-facts {
+    margin: 0 5%;
+}
+.text-decor{
+    text-decoration: underline #da7635;
+}
 .flex-container-row {
     display: flex;
     flex-direction: row;
@@ -164,35 +214,7 @@ a>p {
     text-align: center;
 }
 
-/*Form*/
-.form-container{
-   width:25%;
-   background-color: #da7635;
-   margin-left: 50%;
-    border-radius: 3%; 
-}
 
-input{
-    padding: 5%;
-    margin-bottom: 3%;
-}
-#survey-form{
-   display:flex;
-   flex-direction: column;
-    align-items: flex-end;
-    padding-right: 30%;
-    
-}
-#form-button {
-    color: #da7635;
-    display: inline-block;
-  color: white;
-  background-color: #da7635;
-  border-radius: 5px;
-  padding: 1em;
-  margin: 3%;
-  
-}
 /*About me page*/
 .about-container {
     display: flex;
@@ -210,30 +232,44 @@ input{
     margin-left: auto;
     margin-right: auto;
 }
+.right-side{
+    padding-right: 15%;
+    padding-left: 50%;
+    margin-top: 8%;
+}
+.right {
+    text-align: right;
+}
 
 .text-center {
     text-align: center;
 }
 
-.left{
-    padding:2%;
-    margin: ;
-}
-
 .letter-spacing {
     letter-spacing: .2em;
 }
-
+.space-left{
+    margin-left: 10%;
+}
+.space-top {
+        margin-top: 5%;
+    }
+.more-top-space{
+    margin-top: 15%;
+    margin-right: 3%;
+}
 .space {
     margin: 2%;
 }
-
+.white{
+    color: white;
+}
 .shadow {
-    box-shadow: 15px 15px 20px black;
+    box-shadow: 15px 15px 20px rgb(112, 109, 109);
 }
-
-@media(max-width: 1600px){
-    .top{
-    margin-top: 10%;
+.padding{
+    padding: 2%;
 }
+@media(max-width: 1600px) {
+  
 }
